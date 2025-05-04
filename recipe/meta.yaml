@@ -1,5 +1,5 @@
 {% set name = "jsonspice" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jsonspice-{{ version }}.tar.gz
-  sha256: b538d548be1d14c1c69f526d87001a19aa52fe42d1a1ab17ff3d2a85f88c294b
+  sha256: 81f09e741f30163d5c887d10a7ecf917759b258f244d24ecc4caeb093c948a92
 
 build:
   noarch: python
